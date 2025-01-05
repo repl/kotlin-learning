@@ -21,6 +21,7 @@ repositories {
 
 dependencies {
     // This dependency is used by the application.
+    implementation("com.googlecode.lanterna:lanterna:3.1.2")
     implementation(libs.guava)
 }
 
@@ -43,5 +44,5 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = "Main"
+    mainClass = "MainKt"
 }
